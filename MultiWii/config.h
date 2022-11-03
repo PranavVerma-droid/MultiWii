@@ -36,7 +36,7 @@
     //#define BI
     //#define TRI
     //#define QUADP
-    //#define QUADX
+    #define QUADX
     //#define Y4
     //#define Y6
     //#define HEX6
@@ -146,7 +146,7 @@
       //#define CRIUS_AIO_PRO
       //#define DESQUARED6DOFV2GO  // DEsquared V2 with ITG3200 only
       //#define DESQUARED6DOFV4    // DEsquared V4 with MPU6050
-      //#define LADYBIRD
+      #define LADYBIRD
       //#define MEGAWAP_V2_STD     // available here: http://www.multircshop.com                    <- confirmed by Alex
       //#define MEGAWAP_V2_ADV
       //#define HK_MultiWii_SE_V2  // Hobbyking board with MPU6050 + HMC5883L + BMP085
@@ -1199,4 +1199,3 @@ Also note, that maqgnetic declination changes with time, so recheck your value e
 /*************************************************************************************************/
 
 #endif /* CONFIG_H_ */
-
